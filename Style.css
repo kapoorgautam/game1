@@ -1,0 +1,90 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(116, 162, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+#bc{
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#bct{
+    height: 80px;
+    background-color:  rgb(40, 83, 152);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35%;
+}
+#elem{
+    /* background-color: red; */
+    display: flex;
+    color: white;
+    gap: 10px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+#elem>h4{
+    font-size: 20px;
+    font-weight: 100;
+}
+#box{
+    /* width: 10px;
+    height: 10px; */
+    padding:  2px 8px;
+    /* height: 30px; */
+    /* width: 30px; */
+    font-weight: 600;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(14, 67, 160);
+    font-size: 1.5rem;
+
+}
+#bcb{
+    /* height: calc(100% - 100px); */
+    /* background-color: rgb(233, 30, 30); */
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+#bubble{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #3F66DA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
+#bubble:hover{
+    background-color: #2044af;
+    cursor: pointer;
+}
